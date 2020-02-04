@@ -23,6 +23,8 @@ $ express --view=ejs <project_dir_name>
 |-----------------------------------|---------------------------------------------------------|
 | Text Printing (console-function)  | Using console.log function and OOP                      | 
 | Arithmetic Operation (arithmetic) | Performs basic arithmetic                               |
+| Return value (return-value1)      | Return the highest number from the array                |
+| Return value (return-value2)      | Return conditional statement based on user input        |
 | Reverse structure (reverse)       | Printing odd number between 1 - 10                      | 
 
 
