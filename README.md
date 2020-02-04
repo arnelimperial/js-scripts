@@ -21,7 +21,7 @@ $ express --view=ejs <project_dir_name>
 
 | Exercise Item & Directory         | Description                                             |
 |-----------------------------------|---------------------------------------------------------|
-| Text Printing ()                     | Using console.log function and OOP                      | 
+| Text Printing (console-function)  | Using console.log function and OOP                      | 
 |                                   |                                                         | 
 
 
