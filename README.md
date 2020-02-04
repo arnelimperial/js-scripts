@@ -19,6 +19,12 @@ $ express --view=ejs <project_dir_name>
 ```
 ---
 
+| Exercise Item & Directory         | Description                                             |
+|-----------------------------------|---------------------------------------------------------|
+| Text Printing ()                     | Using console.log function and OOP                      | 
+|                                   |                                                         | 
+
+
 ### License
 Zlib
 
