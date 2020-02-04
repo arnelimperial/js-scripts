@@ -1,11 +1,11 @@
-<h1 align=center>Math and Statistics</h1> 
+<h1 align=center>JS-Scripts</h1> 
 
 > Console apps, code snippets and mini-projects written in Javascript/Node JS submitted as a requirement for partial completion of programming course in Metropolia Open Studies and AMKoodari.
 
 
-| Item                              | Description                                             |
+| Exercise Item                     | Description                                             |
 |-----------------------------------|---------------------------------------------------------|
-| Text printing                     | Using console.log function and OOP                      | |                                   |                                                         |                                    
+| Text Printing                     | Using console.log function and OOP                      | |                                   |                                                         |                                    
 
 
 ##### License
