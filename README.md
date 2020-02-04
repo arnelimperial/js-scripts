@@ -25,6 +25,19 @@ $ express --view=ejs <project_dir_name>
 |                                   |                                                         | 
 
 
+
+---
+
+### Serve
+To serve in the browser
+
+```sh
+$ npm start
+```
+
+---
+
+
 ### License
 Zlib
 
