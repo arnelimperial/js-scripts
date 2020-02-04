@@ -22,7 +22,7 @@ $ express --view=ejs <project_dir_name>
 | Exercise Item & Directory         | Description                                             |
 |-----------------------------------|---------------------------------------------------------|
 | Text Printing (console-function)  | Using console.log function and OOP                      | 
-|                                   |                                                         | 
+| Arithmetic Operation (arithmetic) | Performs basic arithmetic                               | 
 
 
 
