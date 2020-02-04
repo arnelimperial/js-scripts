@@ -2,14 +2,27 @@
 
 > Console apps, code snippets and mini-projects written in Javascript/Node JS submitted as a requirement for partial completion of programming course in Metropolia Open Studies and AMKoodari.
 
+---
 
-| Exercise Item                     | Description                                             |
-|-----------------------------------|---------------------------------------------------------|
-| Text Printing                     | Using console.log function and OOP                      | |                                   |                                                         |                                    
+### Installation
 
+```sh
+$ npm install
+```
 
-##### License
+```sh
+$ express --view=hbs <project_dir_name>
+```
+
+```sh
+$ express --view=ejs <project_dir_name>
+```
+---
+
+### License
 Zlib
 
-##### Coder:
+---
+
+### Coder:
 [Arnel Imperial](https://arnelimperial.com)
