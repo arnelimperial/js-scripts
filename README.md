@@ -5,8 +5,7 @@
 
 | Item                              | Description                                             |
 |-----------------------------------|---------------------------------------------------------|
-| Console.log function              | Print Hello World                                       |
-|                                   |                                                         |                              
+| Text printing                     | Using console.log function and OOP                      | |                                   |                                                         |                                    
 
 
 ##### License
