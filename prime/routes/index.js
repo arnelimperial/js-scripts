@@ -3,7 +3,29 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  //res.render('index', { title: 'Express' });
+   //res.render('index', { title: 'Express' });
+   let counter = 60;
+   let list = [];
+   while(counter > 0) {
+   counter++;
+   if (counter % 2 > 0){
+     //console.log(counter--);
+     list += (counter++);
+    
+     
+   }
+   
+ }
+ 
+ let i;
+ let item = '';
+ for (i = 0; i< list.length;i++){
+   item += list[i] + ' ';
+   console.log(item);
+ 
+ }
+ res.render('index', { title: 'While loop' });
 });
 
 module.exports = router;
