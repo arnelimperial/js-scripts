@@ -27,6 +27,7 @@ $ express --view=ejs <project_dir_name>
 | Return value (return-value2)      | Return conditional statement based on user input        |
 | Reverse structure (reverse)       | Printing odd number between 1 - 10                      |
 | Prime numbers (prime)             | Printing prime numbers with for loop                    |
+| Editing Element Content(innerHTML)| Modifying element content                               |
 
 
 
