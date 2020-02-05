@@ -29,6 +29,7 @@ $ express --view=ejs <project_dir_name>
 | Prime numbers (prime)             | Printing prime numbers with for loop                    |
 | Editing Element Content(innerHTML)| Modifying element content                               |
 | Function Call (func-call)         | Calling method from web page                            |
+| Function (program.js)             | Basic JS Function                                       |
 
 
 
