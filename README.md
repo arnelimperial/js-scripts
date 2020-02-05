@@ -28,6 +28,7 @@ $ express --view=ejs <project_dir_name>
 | Reverse structure (reverse)       | Printing odd number between 1 - 10                      |
 | Prime numbers (prime)             | Printing prime numbers with for loop                    |
 | Editing Element Content(innerHTML)| Modifying element content                               |
+| Function Call (func-call)         | Calling method from web page                            |
 
 
 
