@@ -29,10 +29,7 @@ $ express --view=ejs <project_dir_name>
 | Prime numbers (prime)             | Printing prime numbers with for loop                    |
 | Editing Element Content(innerHTML)| Modifying element content                               |
 | Function Call (func-call)         | Calling method from web page                            |
-| Function (program.js)             | Basic JS Function                                       |
-
-
-
+| Function (program.js)             | Basic JS Function(Parameters and return value)          |
 
 ---
 
@@ -45,6 +42,27 @@ $ npm start
 
 ---
 
+### Problem
+Täydennä koodiin funktiot noudaArvo() sekä laskePotenssi(). Funktion noudaArvo() tulee hakea annetun parametrin mukaisesta HTML-tekstisyöte-elementistä arvo ja palauttaa se. Funktion laskePotenssi() tulee laskea ja palauttaa annettujen parametrien mukainen luku. Huomaa, että kaikki tulostaminen tulee tapahtua jo valmiiksi toteutetun funktion sisällä.
+
+Vinkki: Jos eksponentti on 0, tulos on kannasta riippumatta 1. Jos eksponentti on negatiivinen, tulos on luvun potenssin käänteisluku (1 / tulos).
+
+Kannattaa myös pitää mielessä, että return-käskyyn törmätessä poistutaan välittömästi funktiosta, jossa siihen törmättiin.
+
+
+Complete the functions nuodaArvo() and laskePotenssi() in the code. The nuodaArvo() function must retrieve and return a value from the HTML text input element of the given parameter. Calculate the laskePotenssi() should calculate and return a number corresponding to the given parameters. Note that all printing must be done within a function already implemented.
+
+Hint: If the exponent is 0, the result is 1. Whatever the base, the result is the inverse of the number's power (1 / result).
+
+It is also worth bearing in mind that when you hit a return statement, you immediately exit the function that encountered it.
+
+
+*Example output:*
+```sh
+Luku 3 potenssiin 4 on:
+81
+```
+---
 
 ### License
 Zlib
