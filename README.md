@@ -43,6 +43,20 @@ $ npm start
 
 ---
 
+### Problem
+Luo kaksi oliota, kimmo ja oona. Anna niille esimerkkitulostuksen ja jo olemassaolevan koodin mukaan tarvittavat jäsenet.
+
+Create two objects, Kimmo and Oona. Give them the members they need based on the sample print and the code that already exists.
+
+*Expected Output*
+```sh
+Nimi: Kimmo Koodari	Ikä:20
+Nimi: Oona Ohjelmoija	Ikä:32
+Oona on 12 vuotta vanhempi kuin Kimmo
+```
+
+---
+
 
 ### License
 Zlib

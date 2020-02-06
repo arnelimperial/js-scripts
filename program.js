@@ -20,3 +20,6 @@ const oona = {
 
 
 }
+console.log('Nimi: ' + kimmo.nimi() + '\tIkä:' + kimmo.ika);
+console.log('Nimi: ' + oona.nimi() + '\tIkä:' + oona.ika);
+console.log(oona.etunimi + ' on ' + (oona.ika - kimmo.ika) + ' vanhempi kuin ' + kimmo.etunimi);
