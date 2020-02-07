@@ -47,6 +47,25 @@ $ npm start
 
 ---
 
+### Problem
+Kirjoita funktio popAndShift(). Funktion tulee ensin tulostaa taulukoiden array1 ja array2 sisällöt. Tämän jälkeen, array2:sta poistetaan vuorotellen .pop()- ja .shift()-metodeja käyttäen alkioita, lisäten ne array1:n loppuun. Lopussa tulostetaan array1:n sisältö.
+
+Huom! Automaattitesti hoitaa arvojen alustamisen taulukoihin.
+
+Type popAndShift (). The function must first print the contents of tables1 and array2. After that, array2 is removed alternately using the .pop () and .shift () methods, adding elements to the end of array1. At the end, the contents of array1 are printed.
+
+NB! An automated test takes care of initializing values ​​into tables.
+
+*Expected Output*
+```sh
+Taulukko 1: A
+Taulukko 2: B,C,D,E,F,G,H,I
+Lopputulos: A,I,B,H,C,G,D,F,E
+
+```
+
+---
+
 
 ### License
 Zlib

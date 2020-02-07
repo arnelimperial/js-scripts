@@ -2,7 +2,7 @@
 array1 = ['A'];
 array2 = ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I'];
 
-function arrayMethods(){
+function popAndShift(){
     if(array2.indexOf(5) > -1){
             
         var str2 = array2.join(',');
@@ -89,4 +89,4 @@ function arrayMethods(){
 
 }
 
-arrayMethods();
+popAndShift();
