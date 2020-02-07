@@ -31,6 +31,7 @@ $ express --view=ejs <project_dir_name>
 | Function Call (func-call)         | Calling method from web page                            |
 | Function (program.js)             | Basic JS Function(Parameters and return value)          |
 | Object(program.js)                | Creating JS Object (Object Literal)                     |
+| Array Methods (program.js)        | Basic usage of some array prototype methods             |
 
 
 
