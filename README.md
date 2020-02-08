@@ -55,6 +55,17 @@ $ npm start
 ### Problem
 Kirjoita funktio toisto(), joka toistaa annettua funktiota halutulle arvolle annetun määrän kertoja, sekä kyseiset yksinkertaiset funktiot puolitus() ja nelio().
 
+Write the three functions checkFunc(), combineFunc(), and sumFunc() used in the problem. Infer their behavior from existing code, their names and sample printing.
+
+*Expected Output*
+Taulukossa tekstiä. Yhdistetään sanat:
+Tämän taulukon alkiot muodostavat lauseen 
+Taulukossa vain lukuja. Lasketaan summa:
+143
+Taulukossa tekstiä. Yhdistetään sanat:
+5 kertaa 3 on 15 
+
+----
 
 ### License
 Zlib
