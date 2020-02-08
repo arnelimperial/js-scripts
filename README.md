@@ -32,7 +32,7 @@ $ express --view=ejs <project_dir_name>
 | Function (program.js)             | Basic JS Function(Parameters and return value)          |
 | Object(program.js)                | Creating JS Object (Object Literal)                     |
 | Array Method(program.js)          | Basic usage of some of the array built-in functions     |
-| Repetition (program.js)           | Repetition function                                     |
+| Repetition (program.js)           | Repetition & Higher Order Function                      |
 
 
 
@@ -44,6 +44,10 @@ To serve in the browser
 
 ```sh
 $ npm start
+```
+
+```sh
+$ node program.js
 ```
 
 ---
