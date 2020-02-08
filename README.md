@@ -37,6 +37,8 @@ $ node program.js
 | Object(program.js)                | Creating JS Object (Object Literal)                     |
 | Array Method(program.js)          | Basic usage of some of the array built-in functions     |
 | Repetition (program.js)           | Repetition & Higher Order Function                      |
+| Object2 (program.js)              | Compairing Objects                                      |
+
 
 
 
