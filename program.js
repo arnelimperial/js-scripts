@@ -1,54 +1,13 @@
-var a = 'Taulukossa tekstiä. Yhdistetään sanat:';
+/*Sample script*/ 
 
-var b = "Taulukossa vain lukuja. Lasketaan summa:";
-
-var checkFunc = function(x){
-	var num = x.every(function(element) {return typeof element === 'number';});
-	if(x.indexOf('taulukon') === 1 && (num === false)){
-		
-		console.log(a);
-		
-	}else if(x.indexOf(3) === 0 && (num === true)){
-		
-		console.log(b);
-	
-	}else if(x.indexOf('alkiot') === 2 && (num === false)){
-		
-		console.log(a);
-		
-
-	}else{
-		console.log(a);
-	}
-	
+const arr = ['Hello', 'Javascript', '2020!'];
+const array1 = [];
+for(let i=0; i< arr.length; ++i){
+  array1.push(arr[i]);
 }
 
+// pass a function to map
+const map1 = array1.map(x => x);
 
-var combineFunc = function(x){
-	var num = x.every(function(element) {return typeof element === 'number';});
-	if(num === false){
-		
-	
-		return(x.join(" ") + " ");
-	}else{
-		
-		var sum = x.reduce(function(a, b){return a + b;}, 0);
-		return (sum); 
-		
-	}
-		
-	
-}
-
-
-var sumFunc = function(x){
-	var num = x.every(function(element) {return typeof element === 'number';});
-	if(num === true){
-		
-		var sum = x.reduce(function(a, b){return a + b;}, 0);
-		console.log(sum); 
-	}
-	
-}
-	
-	
+console.log(map1.join(''));
+// expected output: Hello Javascript 2020!
