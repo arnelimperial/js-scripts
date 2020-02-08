@@ -15,7 +15,7 @@ $ express --view=hbs <project_dir_name>
 ```
 
 ```sh
-$ express --view=ejs <project_dir_name>
+$ node program.js
 ```
 ---
 
