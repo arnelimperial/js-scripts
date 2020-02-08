@@ -17,6 +17,10 @@ $ express --view=hbs <project_dir_name>
 ```sh
 $ express --view=ejs <project_dir_name>
 ```
+
+```sh
+$ node program.js
+```
 ---
 
 | Exercise Item & Directory         | Description                                             |
@@ -32,7 +36,7 @@ $ express --view=ejs <project_dir_name>
 | Function (program.js)             | Basic JS Function(Parameters and return value)          |
 | Object(program.js)                | Creating JS Object (Object Literal)                     |
 | Array Method(program.js)          | Basic usage of some of the array built-in functions     |
-| Repetition (program.js)           | Repetition function                                     |
+| Repetition (program.js)           | Repetition function & Higher Order Function             |
 
 
 
@@ -47,6 +51,9 @@ $ npm start
 ```
 
 ---
+
+### Problem
+Kirjoita funktio toisto(), joka toistaa annettua funktiota halutulle arvolle annetun määrän kertoja, sekä kyseiset yksinkertaiset funktiot puolitus() ja nelio().
 
 
 ### License
