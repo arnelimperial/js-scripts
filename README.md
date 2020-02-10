@@ -40,10 +40,6 @@ $ node program.js
 | Object2 (program.js)              | Compairing Objects                                      |
 | Regular Expression(program.js)    | Using match in RegExp                                   |
 
-
-
-
-
 ---
 
 ### Serve
@@ -58,6 +54,17 @@ $ node program.js
 ```
 
 ---
+
+### Problem
+Hae ja tulosta kaikki lauseessa olevat numerot yhtenä taulukkona. Jos lauseessa ei ole numeroita, tulosta "Ei numeroita!". Kokeile tehdä tarkistus onko lauseessa numeroita käyttämällä test()-metodia.
+
+*Expected Output*
+```sh
+0,7,7,1,0,1,7,7,4,4,7,5,4,0,4,3,0,1,7,4,7,7,3
+
+```
+
+----
 
 
 ### License
