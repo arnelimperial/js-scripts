@@ -40,9 +40,7 @@ $ node program.js
 | Object2 (program.js)              | Compairing Objects                                      |
 | Regular Expression(program.js)    | Using match in RegExp                                   |
 | Module(program.js)                | Using module in JS                                      |
-
-
-
+| Module2 (program.js)              | Additional exercise for using module                    |
 
 ---
 
@@ -64,10 +62,7 @@ $ tsc
 $ tsc program.js
 
 ```
-
-
 ---
-
 
 ### License
 Zlib
