@@ -39,7 +39,7 @@ $ node program.js
 | Repetition (program.js)           | Repetition & Higher Order Function                      |
 | Object2 (program.js)              | Compairing Objects                                      |
 | Regular Expression(program.js)    | Using match in RegExp                                   |
-
+| Module(program.js)                | Using module in JS                                      |
 
 
 
