@@ -10,17 +10,6 @@
 $ npm install
 ```
 
-```sh
-$ express --view=hbs <project_dir_name>
-```
-
-```sh
-$ express --view=ejs <project_dir_name>
-```
-
-```sh
-$ node program.js
-```
 ---
 
 | Exercise Item & Directory         | Description                                             |
@@ -45,16 +34,14 @@ $ node program.js
 ---
 
 ### Serve
-To serve in the browser
+Run in the terminal
 
 ```sh
-$ npm start
-```
-
-```sh
+$ tsc --init
+$ tsc
 $ node program.js
-```
 
+```
 ---
 
 ### Problem
