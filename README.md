@@ -57,6 +57,15 @@ $ npm start
 $ node program.js
 ```
 
+To run in the terminal(For branch with TS)
+```sh
+$ tsc --init
+$ tsc
+$ tsc program.js
+
+```
+
+
 ---
 
 
