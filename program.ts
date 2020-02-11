@@ -1,13 +1,48 @@
-/*Sample script*/ 
+var kauppa:any = {};
 
-const arr = ['Hello', 'Javascript', '2020!'];
-const array1 = [];
-for(let i=0; i< arr.length; ++i){
-  array1.push(arr[i]);
-}
+kauppa.asiakasrekisteri = (function(){
+    const list:string[] = [];
+    function func1(indices:number){
+        
+        if(list[indices] === undefined) {
+            console.log('Liian korkea ID!');
+        }else{
+            console.log(indices + ': ' + list[indices]);
+        }
 
-// pass a function to map
-const map1 = array1.map(x => x);
+    }
 
-console.log(map1.join(' '));
-// expected output: Hello Javascript 2020!
+    function func2(fname:string, lname:string){
+        var full_name = lname + ' ' + fname;
+        var l = list.push(full_name);
+        console.log('Lisätty asiakas ID:llä ' + (l - 1));
+
+    }
+
+    function func3(){
+        var listahan = 'Tulostetaan kaikki asiakkaat:'
+        console.log(listahan);
+        for(var i=0; i < list.length; ++i){
+            console.log(i + ': ' + list[i]);
+        }
+
+    }
+
+    return{
+        asiakkaanTiedot: func1,
+        lisaa: func2,
+        asiakasLista: func3
+    }
+
+})();
+
+kauppa.asiakasrekisteri.asiakkaanTiedot(0);
+kauppa.asiakasrekisteri.lisaa('Matti', 'Mikalainen');
+kauppa.asiakasrekisteri.lisaa('Hannah', 'Huipukoodari');
+kauppa.asiakasrekisteri.asiakkaanTiedot(1);
+kauppa.asiakasrekisteri.lisaa('XXXXX', 'YYYYYYY');
+kauppa.asiakasrekisteri.lisaa('Simo', 'Hillo');
+kauppa.asiakasrekisteri.asiakasLista();
+
+
+

@@ -64,13 +64,31 @@ $ tsc
 $ tsc program.js
 
 ```
+----
 
+### Problem
+Teoriassa oli esimerkki kauppajärjestelmästä ja sen ostoskori-moduulista. Aiemmin on myös luotu Henkilö- sekä Asiakas-olioita. Luo kaupalle asiakasrekisteri-moduuli, johon Asiakkaiden tietoja tallennetaan ja josta niitä voi hakea.
 
----
+Moduulin toiminnot ovat seuraavat:
 
+lisaa(etunimi, sukunimi). ID luodaan kullekin asiakkaalle automaattisesti kasvavassa järjestyksessä alkaen luvusta 0.
 
-### License
-Zlib
+asiakkaanTiedot(id). Haetaan ID:n perusteella asiakas ja tulostetaan hänen nimensä. Tässä voi käyttää Henkilö:stä perittyä nimi-metodia. Jos ID:tä ei ole olemassa, toisin sanoen asiakkaita ei ole vielä lisätty niin montaa, tulostetaan "Liian korkea ID!".
+
+asiakasLista(). Tulostetaan kaikkien asiakkaiden tiedot muodossa [ID]: [Sukunimi] [Etunimi].
+
+*Expected Output*
+Liian korkea ID!
+Lisätty asiakas ID:llä 0
+Lisätty asiakas ID:llä 1
+1: Huippukoodari Hanna
+Lisätty asiakas ID:llä 2
+Lisätty asiakas ID:llä 3
+Tulostetaan kaikki asiakkaat:
+0: Meikäläinen Matti
+1: Huippukoodari Hanna
+2: Leppä Kerttu
+3: Hillo Simo
 
 ---
 
