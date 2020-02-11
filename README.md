@@ -42,8 +42,6 @@ $ node program.js
 | Module(program.js)                | Using module in JS                                      |
 
 
-
-
 ---
 
 ### Serve
@@ -58,6 +56,16 @@ $ node program.js
 ```
 
 ---
+
+### Problem
+Alla oleva viikonPaiva-moduuli ei vielä sisällä rajapintaa. Kirjoita se, jotta tulostus toimii esimerkin mukaisesti.
+
+*Expected Output*
+```sh
+Viikossa on 7 päivää.
+Ohjelmoinnissa päivän Sunnuntai indeksi on yleensä 0
+
+```
 
 
 ### License
