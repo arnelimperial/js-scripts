@@ -1,11 +1,44 @@
-"use strict";
-/*Sample script*/
-var arr = ['Hello', 'Javascript', '2020!'];
-var array1 = [];
-for (var i = 0; i < arr.length; ++i) {
-    array1.push(arr[i]);
+//Return current date and time
+var presentTime = new Date();
+// Return the month
+var month = presentTime.getMonth() + 1;
+//Return date of the month
+var day = presentTime.getDate();
+//Return the year
+var year = presentTime.getFullYear();
+
+//Function constructor
+var Person = function(name, yearOfBirth, job){
+    this.name = name;
+    this.yearOfBirth = yearOfBirth;
+    this.job = job;
 }
-// pass a function to map
-var map1 = array1.map(function (x) { return x; });
-console.log(map1.join(' '));
-// expected output: Hello Javascript 2020!
+
+//Prototype property of function constructor
+Person.prototype.calculateAge = function(){
+    console.log(year - this.yearOfBirth);
+}
+
+//Usage in property
+Person.prototype.account = 'Members';
+
+//Instantitation
+
+var john = new Person('John', 1990, 'Teacher');
+
+var arnel = new Person('Arnel', 1980, 'Programmer');
+
+var jane = new Person('Mark', 2000, 'Student');
+
+
+john.calculateAge();
+console.log(arnel.name);
+arnel.calculateAge();
+jane.calculateAge();
+
+console.log(john.account);
+console.log(arnel.account);
+console.log(jane.account);
+
+
+

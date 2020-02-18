@@ -41,7 +41,7 @@ $ node program.js
 | Regular Expression(program.js)    | Using match in RegExp                                   |
 | Module(program.js)                | Using module in JS                                      |
 | Module2 (program.js)              | Additional exercise for using module                    |
-| Prototype(script.js)              | Function Constructors and Prototypes                    |
+| Prototype(program.js)             | Function Constructors and Prototypes                    |
 
 ---
 
