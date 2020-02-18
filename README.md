@@ -42,6 +42,7 @@ $ node program.js
 | Module(program.js)                | Using module in JS                                      |
 | Module2 (program.js)              | Additional exercise for using module                    |
 | Prototype(program.js)             | Function Constructors and Prototypes                    |
+| Object-Create(program.js)         | Creating Objects                                        |
 
 ---
 
