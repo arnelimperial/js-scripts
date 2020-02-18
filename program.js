@@ -1,11 +1,30 @@
-"use strict";
-/*Sample script*/
-var arr = ['Hello', 'Javascript', '2020!'];
-var array1 = [];
-for (var i = 0; i < arr.length; ++i) {
-    array1.push(arr[i]);
-}
-// pass a function to map
-var map1 = array1.map(function (x) { return x; });
-console.log(map1.join(' '));
-// expected output: Hello Javascript 2020!
+//Return current date and time
+var presentTime = new Date();
+// Return the month
+var month = presentTime.getMonth() + 1;
+//Return date of the month
+var day = presentTime.getDate();
+//Return the year
+var year = presentTime.getFullYear();
+
+//object.create
+var personProto = {
+    calculateAge: function(){
+        console.log(year - this.yearOfBirth);
+    }
+};
+
+var arnel = Object.create(personProto);
+arnel.name = 'Arnel';
+arnel.yearOfBirth = 1997;
+arnel.job = 'Food Technician';
+
+var uriel = Object.create(personProto, 
+    {
+        name: { value: 'Uriel'},
+        yearOfBirth: { value: 1917},
+        job: { value: 'Soldier'}
+
+});
+
+console.log(uriel.job);
