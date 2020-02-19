@@ -44,6 +44,7 @@ $ node program.js
 | Prototype(program.js)             | Function Constructors and Prototypes                    |
 | Object-Create(program.js)         | Creating Objects                                        |
 | First Class Function(program.js)  | Passing function as arguements                          |
+| First Class Function(program.js)  | Function returning function                             |
 
 
 ---
