@@ -43,6 +43,8 @@ $ node program.js
 | Module2 (program.js)              | Additional exercise for using module                    |
 | Prototype(program.js)             | Function Constructors and Prototypes                    |
 | Object-Create(program.js)         | Creating Objects                                        |
+| First Class Function(program.js)  | Passing function as arguements                          |
+
 
 ---
 
