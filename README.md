@@ -46,7 +46,7 @@ $ node program.js
 | First Class Function(program.js)  | Passing function as arguements                          |
 | First Class Function(program.js)  | Function returning function                             |
 | IIFE(program.js)                  | Immediately Invoke Function Expression                  |
-
+| Closure(program.js)               | Intro to Closure                                        |
 
 ---
 
