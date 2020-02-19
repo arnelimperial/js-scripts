@@ -45,6 +45,7 @@ $ node program.js
 | Object-Create(program.js)         | Creating Objects                                        |
 | First Class Function(program.js)  | Passing function as arguements                          |
 | First Class Function(program.js)  | Function returning function                             |
+| IIFE(program.js)                  | Immediately Invoke Function Expression                  |
 
 
 ---
