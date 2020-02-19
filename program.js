@@ -1,11 +1,30 @@
-"use strict";
-/*Sample script*/
-var arr = ['Hello', 'Javascript', '2020!'];
-var array1 = [];
-for (var i = 0; i < arr.length; ++i) {
-    array1.push(arr[i]);
+
+function interviewQuestion(job){
+    if(job === 'designer'){
+        //retun Anon function
+        return function(name){
+            console.log(name + ', can you please explain what UX design is.');
+        }
+    }else if(job === 'teacher'){
+        return function(name){
+            console.log('What subject do you teach, ' + name + '?');
+        }
+    }else{
+        return function(name){
+            console.log('Hello! ' + name + ', what is your job?');
+        }
+    }
 }
-// pass a function to map
-var map1 = array1.map(function (x) { return x; });
-console.log(map1.join(' '));
-// expected output: Hello Javascript 2020!
+
+var teacherQuestion = interviewQuestion('teacher');
+teacherQuestion('Astrid');
+
+var designerQuestion = interviewQuestion('designer');
+designerQuestion('James');
+
+interviewQuestion('doctor')('Mark');
+interviewQuestion('designer')('April');
+
+var otherQuestion = interviewQuestion('Technician');
+otherQuestion('Jeff');
+
