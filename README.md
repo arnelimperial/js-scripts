@@ -46,6 +46,8 @@ $ node program.js
 | First Class Function(program.js)  | Passing function as arguements                          |
 | First Class Function(program.js)  | Function returning function                             |
 | BCA(program.js)                   | Bind, Call & Apply Method                               |
+| DOM                               | DOM Sample Game                                         |
+
 
 
 ---
