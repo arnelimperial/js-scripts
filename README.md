@@ -49,6 +49,8 @@ $ node program.js
 | Closures(program.js)              | Intro to Closures                                       |
 | BCA(program.js)                   | Bind, Call & Apply Methods                              |
 | DOM                               | DOM Sample Game                                         |
+| Object and Function(program.js)   | Usage of Object and Function in JS                      |
+
 
 
 ---
