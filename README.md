@@ -47,6 +47,7 @@ $ node program.js
 | First Class Function(program.js)  | Function returning function                             |
 | IIFE(program.js)                  | Immediately Invoke Function Expression                  |
 | Closures(program.js)              | Intro to Closures                                       |
+| BCA(program.js)                   | Bind, Call & Apply Methods                              |
 
 ---
 
