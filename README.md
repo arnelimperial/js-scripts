@@ -48,6 +48,8 @@ $ node program.js
 | IIFE(program.js)                  | Immediately Invoke Function Expression                  |
 | Closures(program.js)              | Intro to Closures                                       |
 | BCA(program.js)                   | Bind, Call & Apply Methods                              |
+| DOM                               | DOM Sample Game                                         |
+
 
 ---
 
