@@ -50,7 +50,7 @@ $ node program.js
 | BCA(program.js)                   | Bind, Call & Apply Methods                              |
 | DOM                               | DOM Sample Game                                         |
 | Object and Function(program.js)   | Usage of Object and Function in JS                      |
-| Object and Function 2(program.js) | Usage of Object and Function in JS - quiz app           |
+| Object and Function 2(program.js) | Usage of Object and Function in JS - quiz console app   |
 
 
 
