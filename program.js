@@ -1,65 +1,26 @@
-//ES5
-var box5 = {
-    color: 'green',
-    position: 1,
-    clickMe: function(){
-        var self = this;
+const boxes = document.querySelectorAll('.box');
 
-        document.querySelector('.green').addEventListener('click', function(){
+const boxesArr6 = Array.from(boxes);
+//boxesArr6.forEach(cur => cur.style.backgroundColor = 'coral');
 
-            var str = 'This is box number ' + self.position + ' and it is ' + self.color;
+Array.from(boxes).forEach(cur => cur.style.backgroundColor = 'coral');
 
-            alert(str);
-        });
+//for of
 
-
+for(const cur of boxes){
+    if(cur.className.includes('blue')){
+        continue;
     }
+    cur.textContent = 'I change to blue';
 
-};
+}
 
-//box5.clickMe();
+const ages = [12, 11, 40, 2, 17];
 
-//ES6
-const box6 = {
-    color: 'green',
-    position: 1,
-    clickMe: function(){
+const item18andAbove = ages.findIndex(cur => cur >=18);
 
-        document.querySelector('.green').addEventListener('click', () => {
+//console.log(ages[item18andAbove]);
+console.log(item18andAbove);
 
-            let str = 'This is box number ' + this.position + ' and it is ' + this.color;
-
-            alert(str);
-        });
-    }
-};
-
-box6.clickMe();
-
-function Person(name){
-
-    this.name = name;
-};
-
-//ES5
-Person.prototype.myFriends5 = function(friends){
-    var arr = friends.map(function(el){
-        return this.name + ' is friends with ' + el;
-
-    }.bind(this));
-    console.log(arr);
-};
-
-var friends = ['Bob', 'Jane', 'Mark'];
-
-//new Person('John').myFriends5(friends);
-
-//ES6
-
-Person.prototype.myFriends6 = function(friends){
-    var arr = friends.map(el => `${this.name} is friends with ${el}`);
-
-    console.log(arr);
-};
-
-new Person('Mike').myFriends6(friends);
+const item18andAbovefind = ages.find(cur => cur >=18);
+console.log(item18andAbovefind);
