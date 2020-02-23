@@ -1,26 +1,23 @@
-const boxes = document.querySelectorAll('.box');
-
-const boxesArr6 = Array.from(boxes);
-//boxesArr6.forEach(cur => cur.style.backgroundColor = 'coral');
-
-Array.from(boxes).forEach(cur => cur.style.backgroundColor = 'coral');
-
-//for of
-
-for(const cur of boxes){
-    if(cur.className.includes('blue')){
-        continue;
-    }
-    cur.textContent = 'I change to blue';
-
+function addFourAges(a, b, c, d){
+    return a+b+c+d;
 }
 
-const ages = [12, 11, 40, 2, 17];
+let ages = [12, 67, 80, 20];
+const sum6 = addFourAges(...ages);
+console.log(sum6);
 
-const item18andAbove = ages.findIndex(cur => cur >=18);
+let familyA = ['Bob', 'Jane', 'Paul'];
 
-//console.log(ages[item18andAbove]);
-console.log(item18andAbove);
+let familyB = ['Anna', 'Dean', 'Lucia'];
 
-const item18andAbovefind = ages.find(cur => cur >=18);
-console.log(item18andAbovefind);
+const fam = [...familyA, ...familyB];
+console.log(fam);
+
+const h = document.querySelector('h1');
+
+//Return a nodelist which can use spread operator
+const boxes = document.querySelectorAll('.box');
+
+const all = [h, ...boxes];
+
+Array.from(all).forEach(cur => cur.style.color = '#c0c0C0');

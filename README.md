@@ -54,6 +54,8 @@ $ node program.js
 | Budget app (Budget)               | Application of Objects and Function                     |
 | Arrow functions (program.js)      | Arrow functions in ES6                                  |
 | Array (program.js)                | Array in ES6                                            |
+| Spread Operator(program.js)       | Basic usage of Spread operator ES6                      |
+
 
 
 
