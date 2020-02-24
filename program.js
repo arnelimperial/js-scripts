@@ -1,11 +1,7 @@
-"use strict";
-/*Sample script*/
-var arr = ['Hello', 'Javascript', '2020!'];
-var array1 = [];
-for (var i = 0; i < arr.length; ++i) {
-    array1.push(arr[i]);
+//Rest param
+
+function isFullAge(...years){
+    years.forEach(cur => console.log(2020 - cur >= 18));
 }
-// pass a function to map
-var map1 = array1.map(function (x) { return x; });
-console.log(map1.join(' '));
-// expected output: Hello Javascript 2020!
+
+isFullAge(2006, 2001, 1980, 1917);
