@@ -56,14 +56,24 @@ $ node program.js
 | Array (program.js)                | Array in ES6                                            |
 | Spread Operator(program.js)       | Basic usage of Spread operator ES6                      |
 | Rest & Default Param(program.js)  | Basic usage of Rest & Default Param operator ES6        |
-| Maps (program.js)                 | Basic usage of Maps data structure  in ES6               |
+| Maps (program.js)                 | Basic usage of Maps data structure  in ES6              |
+| ES6 usage project                 | Application of some of the features in ES6              |
 
 
+---
 
-
-
-
-
+### Problem
+Suppose that you are working as town admin and you are in charge of two town element.
+ - Parks
+ - Streets
+There are only 3 parks and 4 streets. All parks and street have bild name.
+Your boss wants a final report of the ff:
+    - Tree density of the park in the town(formula: # of trees/park area)
+    - Average age of each town park(formula: sum of all ages/# of parks)
+    - Name of the park that has more than 1000 tress
+    - Total and average length of town's street
+    - Size classification of town streets(tiny, small, normal, big, huge). If the size is       unknown, the default is normal
+    
 ---
 
 ### Serve
