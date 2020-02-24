@@ -56,7 +56,9 @@ $ node program.js
 | Array (program.js)                | Array in ES6                                            |
 | Spread Operator(program.js)       | Basic usage of Spread operator ES6                      |
 | Rest & Default Param(program.js)  | Basic usage of Rest & Default Param operator ES6        |
-| Maps (program.js)                 | Basic usage of Maps data structure  in ES6               |
+| Maps (program.js)                 | Basic usage of Maps data structure  in ES6              |
+| Classes (program.js)              | Classes in ES6                                          |
+
 
 
 
