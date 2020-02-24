@@ -58,6 +58,9 @@ $ node program.js
 | Rest & Default Param(program.js)  | Basic usage of Rest & Default Param operator ES6        |
 | Maps (program.js)                 | Basic usage of Maps data structure  in ES6              |
 | Classes & Suclasses(program.js)   | Classes and Subclasses in ES6                           |
+| ES6 usage project                 | Application of some of the features in ES6              |
+
+
 
 
 
