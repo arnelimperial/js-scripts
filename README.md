@@ -62,6 +62,8 @@ $ node program.js
 | Asynchronous JS with Callback     | Asynchronous JS with Callback: Old Way                  |
 | Promises                          | Promises in ES6                                         |
 | Async/Await                       | Async/Await in ES6                                      |
+| AJAX call 1                       | Using Fetch & Promises                                  |
+
 
 ---
 
