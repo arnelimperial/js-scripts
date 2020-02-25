@@ -63,6 +63,8 @@ $ node program.js
 | Promises                          | Promises in ES6                                         |
 | Async/Await                       | Async/Await in ES6                                      |
 | AJAX call 1                       | Using Fetch & Promises                                  |
+| AJAX call 2                       | Using Async/Await                                       |
+
 
 
 ---
