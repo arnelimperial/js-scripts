@@ -60,6 +60,8 @@ $ node program.js
 | Classes & Suclasses(program.js)   | Classes and Subclasses in ES6                           |
 | ES6 usage exercise                | Application of some of the features in ES6              |
 | Asynchronous JS with Callback     | Asynchronous JS with Callback: Old Way                  |
+| Promises                          | Promises in ES6                                         |
+
 
 ---
 
