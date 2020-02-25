@@ -61,18 +61,6 @@ $ node program.js
 | ES6 usage exercise                | Application of some of the features in ES6              |
 | Asynchronous JS with Callback     | Asynchronous JS with Callback: Old Way                  |
 
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 
 ### Serve
