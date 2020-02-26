@@ -1,2 +1,2 @@
-console.log('Imported module');
-export default 30;
+console.log('Imported module....testing');
+export default 990132;
