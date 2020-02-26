@@ -64,18 +64,7 @@ $ node program.js
 | Async/Await                       | Async/Await in ES6                                      |
 | AJAX call 1                       | Ajax call using Fetch & Promises                        |
 | AJAX call 2                       | Ajax call using Async/Await                             |
-
-
-
-
-
-
-
-
-
-
-
-
+| Fork                              | Recipe app                                              |
 
 
 ---
