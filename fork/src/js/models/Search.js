@@ -1,5 +1,6 @@
 //Search Model
 import axios from 'axios';
+//import {path} from '../config' 
 
 export default class SearchModel{
     constructor(query){
