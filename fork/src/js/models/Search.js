@@ -2,7 +2,7 @@
 import axios from 'axios';
 //import {path} from '../config' 
 
-export default class SearchModel{
+export default class Search{
     constructor(query){
         this.query = query;
     }

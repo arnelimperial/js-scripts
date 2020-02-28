@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --mode development --watch",
     "build": "webpack --mode production",
-    "start:dev": "webpack-dev-server --watch"
+    "start:dev": "webpack-dev-server --open --watch"
   },
   "author": "Arnel Imperial",
   "license": "MIT",
@@ -24,6 +24,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "babel-polyfill": "^6.26.0",
+    "fractional": "^1.0.0",
     "live-server": "^1.2.1"
   }
 }
