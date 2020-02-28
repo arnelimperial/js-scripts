@@ -57,21 +57,21 @@ export default class Recipe{
                 const arrCount = arrIng.slice(0, unitIndex);
                 let count;
                 if(arrCount === 1){
-                    count = arrIng[0].replace('-', '+');
+                    count = eval(arrIng[0].replace('-', '+'));
                 }else{
                     count = eval(arrIng.slice(0, unitIndex).join('+'));
                 }
 
                 objIng = {
-                    count: count,
+                    count,
                     unit: arrIng[unitIndex],
                     ingredient: arrIng.slice(unitIndex + 1).join(' ')
 
                 };
-            }else if(parseInt(arrIng[0], 100)){
+            }else if(parseInt(arrIng[0], 10)){
                 //No unit but first element is a number 
                 objIng = {
-                    count: parseInt(arrIng[0], 100),
+                    count: parseInt(arrIng[0], 10),
                     unit: '',
                     ingredient: arrIng.slice(1).join(' ')
                 }
