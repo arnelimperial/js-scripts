@@ -65,7 +65,7 @@ $ node program.js
 | AJAX call 1                       | Ajax call using Fetch & Promises                        |
 | AJAX call 2                       | Ajax call using Async/Await                             |
 | Fork                              | Recipe app                                              |
-
+| Basic Node.js Laptop              | Laptop Store app                                        |
 
 ---
 
